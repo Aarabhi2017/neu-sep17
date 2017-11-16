@@ -112,7 +112,19 @@ This method will determine if the given lyric word is in the map. If the word is
 ```java
 public void displayWords()
 ```
-This method should display the words of the song along with the word positions of the word, one word per line, **in alphabetical order**. You should do this **without creating another map**. Instead, get a set of all the words stored in the map. Sort this set using one of the sort methods from the Java API. Then iterate over this sorted set and print out each word along with the word positions associated with each word. You may leave the negative integers in the word position list. (see sample output below) **Iterate through the array of words using the for loop**.  
+This method should display the words of the song along with the word positions of the word, one word per line, **in alphabetical order**. You should do this **without creating another map**. Instead, get a set of all the words stored in the map. Sort this set using one of the sort methods from the Java API. Then iterate over this sorted set and print out each word along with the word positions associated with each word. You may leave the negative integers in the word position list. (see sample output below) **Iterate through the array of words using the for loop**. 
+
+```
+
+DESERVE: 12
+DONE: 10
+HAVE: 2,5,8
+I: -3,-6,9
+THIS: -13
+TO: 11
+WHAT: 1,4,7
+
+```
 
 * Write a writeLyrics method with the following signature:  
 ```java
@@ -169,25 +181,25 @@ sample output:
 {
 "gmps-camino" : [
 {
-"id" : "2903315183"
-"category" : "NEW"
-"year" : "2016"
-"make" : "Chevrolet"
-"model" : "4500 Gas"
-"trim" : "2WD Reg Cab 150&quot;"
-"type" : ""
-"price" : "56001.0"
+"id" : "2903315183",
+"category" : "NEW",
+"year" : "2016",
+"make" : "Chevrolet",
+"model" : "4500 Gas",
+"trim" : "2WD Reg Cab 150&quot;",
+"type" : null,
+"price" : 56001.0,
 "photo" : "http://inventory-dmg.assets-cdk.com/chrome_jpgs/2016/24174x90.jpg"
 },
 {
-"id" : "2774517143"
-"category" : "NEW"
-"year" : "2016"
-"make" : "Chevrolet"
-"model" : "Cruze"
-"trim" : "Sedan L"
-"type" : "CAR"
-"price" : "17495.0"
+"id" : "2774517143",
+"category" : "NEW",
+"year" : "2016",
+"make" : "Chevrolet",
+"model" : "Cruze",
+"trim" : "Sedan L",
+"type" : "CAR",
+"price" : 17495.0,
 "photo" : "http://inventory-dmg.assets-cdk.com/RTT/Chevrolet/2016/3077853/default/ext_GAZ_deg01x90.jpg"
 },
 .
@@ -195,14 +207,14 @@ sample output:
 .
 ..
 {
-"id" : "2963103683"
-"category" : "USED"
-"year" : "2016"
-"make" : "Toyota"
-"model" : "Corolla"
-"trim" : "4dr Sdn CVT Auto S (SE)"
-"type" : "CAR"
-"price" : "15995.0"
+"id" : "2963103683",
+"category" : "USED",
+"year" : "2016",
+"make" : "Toyota",
+"model" : "Corolla",
+"trim" : "4dr Sdn CVT Auto S (SE)",
+"type" : "CAR",
+"price" : 15995.0,
 "photo" : "http://inventory-dmg.assets-cdk.com/2/2/1/14136058122x90.jpg"
 }
 ]
